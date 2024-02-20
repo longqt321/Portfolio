@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+:root{
+    --green: #54B192;
+    --light-green: #a4cec0;
+    --gray: #3F3D56;
+}
+
+/* === Header ===  */
+header{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
